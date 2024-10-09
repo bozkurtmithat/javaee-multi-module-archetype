@@ -25,9 +25,9 @@ mvn clean install -DskipTests
 You can create project as following commond.
 
 ```sh
-mvn archetype:generate -DarchetypeGroupId=tr.mb \
+mvn archetype:generate -DarchetypeGroupId=tr.mb.archetypes \
                        -DarchetypeArtifactId=javaee-multi-module \
-                       -DarchetypeVersion=1.0-SNAPSHOT \
+                       -DarchetypeVersion=1.0.0 \
                        -DgroupId=tr.mb.poc \
                        -DartifactId=apm \
                        -Dversion=1.0-SNAPSHOT
