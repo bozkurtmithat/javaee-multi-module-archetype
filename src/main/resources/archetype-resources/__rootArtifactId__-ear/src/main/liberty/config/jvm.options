@@ -1,0 +1,2 @@
+# Enable verbose output for class loading.
+#-verbose:class
